@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project( Display-image )
-set (OpenCV_DIR C:\Program Files\opencv\build)
+set (OpenCV_DIR C:\\Program Files\\opencv\\build)
 find_package( OpenCV REQUIRED )
 add_executable( Display-image Displayimage.cpp )
 target_link_libraries( Display-image ${OpenCV_LIBS} )
