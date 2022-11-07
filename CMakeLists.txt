@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-seta (CMAKE_MODULE_PATH C:/Program Files/opencv/build)
+set (CMAKE_MODULE_PATH C:/Program Files/opencv/build)
 project( Display-mage )
 set (OpenCV_DIR C:/Program Files/opencv/build)
 add_executable( Display-image src/Displayimage.cpp )
